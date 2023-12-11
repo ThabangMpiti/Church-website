@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+  .from-fit {
+    margin: auto;
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-item {
+    margin: auto;
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+}

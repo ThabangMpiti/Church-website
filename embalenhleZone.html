@@ -1,0 +1,164 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Argent Branch.css">
+    <link rel="stylesheet" href="BranchCss.css">
+    <title>About us</title>
+    <script>
+        function showDrawer() {
+            var button = document.getElementById("drawer");
+
+            if (button.style.display === 'none') {
+                button.style.display = 'block';
+            } else {
+                button.style.display = 'none';
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="drawer">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#sstry">Ministry</a></li>
+            <li><a href="#leadership">Leadership</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#donations">Donations</a></li>
+            <li><a href="#vision">Our Vision</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#branches">Branches</a></li>
+            <li><a href="#update">Update</a></li>
+            <li><a href="#events">Events</a></li>
+        </ul>
+    </div>
+
+    <!-- Section 1: Header -->
+    <section class="header">
+        <div class="burger-menu" onclick="showDrawer()" id="menu">&#9776;</div>
+        <nav>
+            <img src="./Logo.jpeg" class="logo">
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./About us.html">ABOUT US</a></li>
+                <li><a href="./Ministry.html">MINISTRY</a></li>
+                <li><a href="#leadership">LEADERSHIP</a></li>
+                <li><a href="#contacts">CONTACTS</a></li>
+                <li><a href="#donations">DONATIONS</a></li>
+                <li><a href="#vision">OUR VISION</a></li>
+                <li><a href="#videos">VIDEOS</a></li>
+                <li><a href="#branches">BRANCHES</a></li>
+                <li><a href="#update">UPDATE</a></li>
+                <li><a href="#events">EVENTS</a></li>
+            </ul>
+        </nav>
+
+        <!-- Section 2: About Us -->
+        <section id="about" class="about">
+            <h2>Embalenhle Zonal</h2>
+            <div class="about-container">
+                <div class="about-item">
+                    <div class="leadership-item">
+                        <img src="./pastor face 2.png" class="card-img" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Member of Executive
+                            </h4>
+                            <p class="card-text">Sphiwe Motau</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="about-item">
+                    <form>
+                        <!-- Add contact form with name, surname, email, and message fields here -->
+                        <h3>Send us a message</h3>
+                        <div class="inputs-container">
+                            <div class="inputs">
+                                <label for="name" class="form-label">Name :</label>
+                                <input type="text" class="form-control" id="name">
+
+                                <label for="surname" class="form-label">Surname :</label>
+                                <input type="text" class="form-control" id="surname">
+
+                                <label for="email" class="form-label">Email :</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="message">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <button type="button" class="button submitForm">SEND </button>
+                    </form>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+        <footer>
+            <div class="links">
+                <div class="footlast">
+                    <h4>
+                        <p>MEDIA LINKS</p>
+                    </h4>
+                    <h5><i class="fa fa-youtube" style="margin-bottom: 5%;">devon_Arkofgod </i></h5>
+                    <h5><i class="fa fa-instagram" style="margin-bottom: 5%;">devon_Arkofgod</i></h5>
+                    <h5><i class="fa fa-facebook" style="margin-bottom: 5%;"> devon_Arkofgod</i> </h5>
+                    <h5><i class="fa fa-twitter" style="margin-bottom: 5%;"> devon_Arkofgod</i></h5>
+                </div>
+
+                <div class="footlast">
+                    <h4>
+                        <p>PAGES</p>
+                    </h4>
+                    <h5>
+                        <div>About us</div>
+                    </h5>
+                    <h5>
+                        <div>Leadership</div>
+                    </h5>
+                    <h5>
+                        <div>Gallery</div>
+                    </h5>
+                    <h5>
+                        <div>Ministrity</div>
+                    </h5>
+                    <h5>
+                        <div>Branch</div>
+                    </h5>
+                </div>
+                <div class="footlast">
+                    <h4>
+                        <p>Location</p>
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video"
+                                allowfullscreen=""></iframe>
+                        </div>
+
+                    </h4>
+
+                </div>
+            </div>
+            <div class="footlast legal">
+                <h5>Created@ndalaictsolutions</h5>
+            </div>
+        </footer>
+</body>
+
+</html>

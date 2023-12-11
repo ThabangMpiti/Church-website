@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../Downloads/Manuale"
+		},
+		{
+			"path": "../../../../Downloads/CHURCH/Exported pictures from figma"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Smtp-newsletter"
+	}
+}

@@ -1,0 +1,830 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Church of God</title>
+    <script>
+        function showDrawer() {
+            var button = document.getElementById("drawer");
+
+            if (button.style.display === 'none') {
+                button.style.display = 'block';
+            } else {
+                button.style.display = 'none';
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="drawer">
+        <ul>
+
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#sstry">Ministry</a></li>
+            <li><a href="#leadership">Leadership</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#donations">Donations</a></li>
+            <li><a href="#vision">Our Vision</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#branches">Branches</a></li>
+            <li><a href="#update">Update</a></li>
+            <li><a href="#events">Events</a></li>
+        </ul>
+    </div>
+
+    <!-- Section 1: Header -->
+    <section class="header">
+        <div class="burger-menu" onclick="showDrawer()" id="menu">&#9776;</div>
+        <nav>
+            <img src="./Logo.jpeg" class="logo">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#ministry">MINISTRY</a></li>
+                <li><a href="#leadership">LEADERSHIP</a></li>
+                <li><a href="#contacts">CONTACTS</a></li>
+                <li><a href="#donations">DONATIONS</a></li>
+                <li><a href="#vision">OUR VISION</a></li>
+                <li><a href="#videos">VIDEOS</a></li>
+                <li><a href="#branches">BRANCHES</a></li>
+                <li><a href="#update">UPDATE</a></li>
+                <li><a href="#events">EVENTS</a></li>
+            </ul>
+        </nav>
+        <img src="./Gold cross 1.png" class="gold-cross" />
+        <div id="poster-holder">
+            <img src="./Pastor face.png" class="pastor-face2" />
+            <img src="./Pastor face.png" class="pastor-face1" />
+        </div>
+        <div id="vectors">
+            <img src="./Vector 2.png" class="vector1" />
+            <img src="./Vector 3.png" class="vector2" />
+        </div>
+        <div class="header-welcome-text">
+            <h1>WELCOME</h1>
+            <h1 class="header-welcome-text2">TO ARK</h1>
+            <h1 class="header-welcome-text3">OF GOD </h1>
+            <h1 class="header-welcome-text4">CHURCH</h1>
+        </div>
+
+        <button class="button1 button" id="myButton">
+            ENQUIRE &gt; &gt;
+        </button>
+
+        <script>
+            // Get the button element by its ID
+            var myButton = document.getElementById("myButton");
+
+            // Add a click event listener to the button
+            myButton.addEventListener("click", function () {
+                // Code to be executed when the button is clicked
+                alert("Button clicked!");
+
+                window.location.href = "https://www.example.com/another-page.html";
+            });
+        </script>
+    </section>
+
+    <!-- Section 2: About Us -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <div class="about-container">
+            <div class="about-item">
+                <h3 class="sub-heading">
+                    Founding Church’s Believe:</h3>
+                <p id="about-text2">
+                    - The church was founded in 2006-03-01 by Apostolic Bishop Jakes Mahlangu and Mrs Pastor Belina
+                    Mahlangu.
+                </p>
+                <p id="about-text2">
+                    - We are a Grace Preaching
+                    Church believing in Jesus Christ as the ONLY saviour of the World.
+                </p>
+                <p id="about-text2">
+                    - We are a church who believe in the Church Age or Last Day and the End of Time proceeded by the
+                    Church
+                    Rapture.
+                </p>
+            </div>
+            <div class="about-item">
+                <h3 class="sub-heading">Church’s Mandate:</h3>
+
+                <p id="about-text3">
+                    - Church’s primary mandate
+                    received from Jesus Christ is
+                    preaching the Grace Message in Four Coners of the Earth.
+                </p>
+
+                <p id="about-text3">
+                    - The church has 10 Zonal
+                    Churches/Branches both in Mpumalanga and Gauteng
+                    Province as per the mandate of Christ with the intend to expand.
+                </p>
+            </div>
+        </div>
+        <button class="button button-margin" id="MyAbout">
+            ABOUT US &gt;
+        </button>
+
+        <script>
+            // Get the button element by its ID
+            var aboutBTN = document.getElementById("MyAbout");
+
+            // Add a click event listener to the button
+            aboutBTN.addEventListener("click", function () {
+                // Code to be executed when the button is clicked
+                alert("Button clicked!");
+
+                window.location.href = "https://www.example.com/another-page.html";
+            });
+        </script>
+    </section>
+
+    <!-- Section 3: Ministry -->
+    <section id="ministry" class="ministry">
+        <h2>Ministry</h2>
+        <div class="ministry-container">
+            <div class="ministry-item">
+                <h3>THE CHURCH </h3>
+                <p> - SUNDAY SERVICE.</p>
+                <p> - COUPLE SERVICE.</p>
+                <p> - MARRIAGE COUNCING. </p>
+            </div>
+            <div class="ministry-item">
+                <h3>THE YOUTH </h3>
+                <p> - SUNDAY SERVICE.</p>
+                <p> - COUPLE SERVICE.</p>
+                <p> - MARRIAGE COUNCING.</p>
+            </div>
+            <div class="ministry-item">
+                <h3>PERSONAL</h3>
+                <p> - SUNDAY SERVICE.</p>
+                <p> - COUPLE SERVICE.</p>
+                <p> - MARRIAGE COUNCING.</p>
+            </div>
+        </div>
+        <button type="button" class="button ministry-button" id="MinitryBTN">
+            MINISTRITY &gt;</button>
+
+
+        <script>
+            // Get the button element by its ID
+            var ministryBTN = document.getElementById("MinitryBTN");
+
+            // Add a click event listener to the button
+            aboutBTN.addEventListener("click", function () {
+                // Code to be executed when the button is clicked
+                alert("Button clicked!");
+
+                window.location.href = "https://www.example.com/another-page.html";
+            });
+        </script>
+
+    </section>
+
+    <!-- Section 4: Leadership -->
+    <section id="leadership" class="leadership">
+        <h2>Leadership</h2>
+        <div class="leadership-container">
+            <!-- Add leadership boxes with images and information here -->
+            <div class="leadership-item">
+                <img src="./Mr_Mahlangu-removebg-preview.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Apostolic Bishop
+                    </h4>
+                    <p class="card-text">jakes</p>
+                </div>
+            </div>
+            <div class="leadership-item">
+                <img src="./media_result_20230911_314e8da3-2dd3-4bdf-9ae7-846abe012bb2 1.png" class="card-img"
+                    alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Pastor</h4>
+                    <p class="card-text"> Belina Mahlangu</p>
+                </div>
+            </div>
+            <div class="leadership-item">
+                <img src="./Sifisokuhle Mlangeni.png" class="card-img" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Chairperson of Board</h4>
+                    <p class="card-text">Sifisokuhle Mlangeni
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="leadership-container">
+            <div class="leadership-item">
+                <img src="./sindi mahendula.png" id="lead-col14" class="card-img" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Member of Executive
+                    </h4>
+                    <p class="card-text">Sindi Mahendula</p>
+                </div>
+            </div>
+            <div class="leadership-item">
+                <img src="./Ayanda.png" class="card-img" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Member of Executive
+                    </h4>
+                    <p class="card-text">Ayanda Maphanga</p>
+                </div>
+            </div>
+
+            <div class="leadership-item">
+                <img src="./pastor face 2.png" class="card-img" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Member of Executive
+                    </h4>
+                    <p class="card-text">Sphiwe Motau</p>
+                </div>
+            </div>
+        </div>
+        <button class="button leadership-button" id="leaderBTN">LEADERSHIP &gt;</button>
+        <script>
+            // Get the button element by its ID
+            var leaderbtn = document.getElementById("leaderBTN");
+
+            // Add a click event listener to the button
+            leaderbtn.addEventListener("click", function () {
+                // Code to be executed when the button is clicked
+                alert("Button clicked!");
+
+                window.location.href = "https://www.example.com/another-page.html";
+            });
+        </script>
+    </section>
+
+    <!-- Section 5: Contacts -->
+    <section id="contacts" class="contacts">
+        <h2>Contact Us</h2>
+        <table>
+            <!-- Add contact information table here -->
+            <tr>
+                <td class="td-1">Apostolic Bishop</td>
+                <td>Pastor</td>
+            </tr>
+            <tr>
+                <td class="td-1">Jakes Mahlangu</td>
+                <td>
+                    Belina Mahlangu
+                </td>
+            </tr>
+            <tr>
+                <td class="td-1">CALL : 064 971 4479</td>
+                <td><i class="fa fa-phone-square fa-1x">Call:079 373 7961</i></td>
+            </tr>
+        </table>
+        <form>
+            <!-- Add contact form with name, surname, email, and message fields here -->
+            <h3>Send us a message</h3>
+            <div class="inputs-container">
+                <div class="inputs">
+                    <label for="name" class="form-label">Name :</label>
+                    <input type="text" class="form-control" id="name">
+
+                    <label for="surname" class="form-label">Surname :</label>
+                    <input type="text" class="form-control" id="surname">
+
+                    <label for="email" class="form-label">Email :</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="message">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </div>
+            <button type="button" class="button submitForm">SEND </button>
+        </form>
+    </section>
+
+    <!-- Section 6: Donations -->
+    <section id="donations" class="donations">
+        <h2>Donations</h2>
+
+        <div class="donations-container">
+            <!-- Add donation boxes here -->
+            <div id="dona-text3">
+                <div>
+                    <img id="dona-text4" src="./FNB logo.png">
+                </div>
+            </div>
+
+            <div id="dona-text3">
+                <div id="dona-text6" class="bank1">
+                    Bank Name : First National Bank
+                </div>
+                <div id="dona-text6" class="bank2">
+                    Account Holder : Ark of God Church (AGC)
+                </div>
+                <div id="dona-text6" class="bank2">
+                    Account Number : 62939389054
+                </div>
+                <div id="dona-text6" class="bank2">
+                    Account Type : Cheque Account
+                </div>
+                <div id="dona-text6" class="bank2">
+                    Branch Code : 210835
+                </div>
+                <div id="dona-text6" class="bank2">
+                    Swift Code : FIRNZAJJ
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section 7: Our Vision -->
+    <section id="vision" class="vision">
+        <h2>Our Vision</h2>
+        <div class="vision-container">
+            <!-- Add vision boxes with goldbuttons here -->
+            <div class="row1">
+                <div class="vis-text">
+                    <div>
+                        <h5 class="vis-text2">MAIN IN CHURCH
+                            VISION:V:1-3 </h5>
+                    </div>
+                    <button type="button" class="button" id="vision1">
+                        VISION 1 </button>
+                </div>
+                <script>
+                    // Get the button element by its ID
+                    var vision_1 = document.getElementById("vision1");
+
+                    // Add a click event listener to the button
+                    vision_1.addEventListener("click", function () {
+                        // Code to be executed when the button is clicked
+                        alert("Button clicked!");
+
+                        window.location.href = "https://www.example.com/another-page.html";
+                    });
+                </script>
+            </div>
+            <div class="row2">
+                <div class="vis-text">
+                    <div>
+                        <h5 class="vis-text2"> SUB-VISION ON FAMILY:
+                            V:8
+                        </h5>
+                    </div>
+                    <button type="button" class="button" id="vision2">
+                        VISION 2</button>
+                </div>
+                <script>
+                    // Get the button element by its ID
+                    var vision_2 = document.getElementById("vision2");
+
+                    // Add a click event listener to the button
+                    vision_2.addEventListener("click", function () {
+                        // Code to be executed when the button is clicked
+                        alert("Button clicked!");
+
+                        window.location.href = "https://www.example.com/another-page.html";
+                    });
+                </script>
+
+                <div class="vis-text">
+                    <div>
+                        <h5 class="vis-text2">
+                            SUB-VISION ON YOUTH:
+                            V:10</h5>
+                    </div>
+
+                    <button type="button" class="button" id="vision3">
+                        VISION 3 </button>
+                </div>
+                <script>
+                    // Get the button element by its ID
+                    var vision_3 = document.getElementById("vision3");
+
+                    // Add a click event listener to the button
+                    vision_3.addEventListener("click", function () {
+                        // Code to be executed when the button is clicked
+                        alert("Button clicked!");
+
+                        window.location.href = "https://www.example.com/another-page.html";
+                    });
+                </script>
+            </div>
+            <div class="row2">
+                <div class="vis-text">
+                    <div>
+                        <h5 class="vis-text2">
+                            SUB-VISION - SUNDAY
+                            SCHOOL: V:12 </h5>
+                    </div>
+                    <button type="button" class="button" id="vision4">
+                        VISION 4 </button>
+                </div>
+                <script>
+                    // Get the button element by its ID
+                    var vision_4 = document.getElementById("vision4");
+
+                    // Add a click event listener to the button
+                    vision_4.addEventListener("click", function () {
+                        // Code to be executed when the button is clicked
+                        alert("Button clicked!");
+
+                        window.location.href = "https://www.example.com/another-page.html";
+                    });
+                </script>
+
+                <div class="vis-text">
+                    <div>
+                        <h5 class="vis-text2">
+                            SUB-VISION ON OLD
+                            AGE-PEOPLE: V:5</h5>
+                    </div>
+                    <button type="button" class="button" id="vision5">
+                        VISION 5 </button>
+                </div>
+                <script>
+                    // Get the button element by its ID
+                    var vision_5 = document.getElementById("vision5");
+
+                    // Add a click event listener to the button
+                    vision_5.addEventListener("click", function () {
+                        // Code to be executed when the button is clicked
+                        alert("Button clicked!");
+
+                        window.location.href = "https://www.example.com/another-page.html";
+                    });
+                </script>
+            </div>
+            <div class="row2">
+                <div class="vis-text">
+                    <div>
+                        <h5 class="vis-text2"> SUB-VISION ON CARING FOR THE POOR: V:5 </h5>
+                    </div>
+                    <button type="button" class="button" id="vision6">
+                        VISION 6 </button>
+                </div>
+                <script>
+                    // Get the button element by its ID
+                    var vision_6 = document.getElementById("vision6");
+
+                    // Add a click event listener to the button
+                    vision_6.addEventListener("click", function () {
+                        // Code to be executed when the button is clicked
+                        alert("Button clicked!");
+
+                        window.location.href = "https://www.example.com/another-page.html";
+                    });
+                </script>
+
+
+                <div class="vis-text">
+                    <div>
+                        <h5 class="vis-text2">SUB-VISION ON DISCIPLESHIP : V: 4</h5>
+                    </div>
+                    <button type="button" class="button" id="vision7">
+                        VISION 7 </button>
+                </div>
+                <script>
+                    // Get the button element by its ID
+                    var vision_7 = document.getElementById("vision7");
+
+                    // Add a click event listener to the button
+                    vision_7.addEventListener("click", function () {
+                        // Code to be executed when the button is clicked
+                        alert("Button clicked!");
+
+                        window.location.href = "https://www.example.com/another-page.html";
+                    });
+                </script>
+            </div>
+            <div class="row2">
+                <div class="vis-text">
+                    <div>
+                        <h5 class="vis-text2">
+                            SUB-VISION ON WOMEN:V:7 </h5>
+                    </div>
+                    <button type="button" class="button" id="vision8">
+                        VISION 8 </button>
+                </div>
+                <script>
+                    // Get the button element by its ID
+                    var vision_8 = document.getElementById("vision8");
+
+                    // Add a click event listener to the button
+                    vision_8.addEventListener("click", function () {
+                        // Code to be executed when the button is clicked
+                        alert("Button clicked!");
+
+                        window.location.href = "https://www.example.com/another-page.html";
+                    });
+                </script>
+
+                <div class="vis-text">
+                    <div>
+                        <h5 class="vis-text2">
+                            SUB-VISION ON MEN : V:
+                            6</h5>
+                    </div>
+                    <button type="button" class="button" id="vision9">
+                        VISION 9 </button>
+                </div>
+                <script>
+                    // Get the button element by its ID
+                    var vision_9 = document.getElementById("vision9");
+
+                    // Add a click event listener to the button
+                    vision_9.addEventListener("click", function () {
+                        // Code to be executed when the button is clicked
+                        alert("Button clicked!");
+
+                        window.location.href = "https://www.example.com/another-page.html";
+                    });
+                </script>
+            </div>
+            <div class="row2">
+                <div class="vis-text">
+                    <div>
+                        <h5 class="vis-text2">
+                            SUB-VISION ON WOMEN:V:7 </h5>
+                    </div>
+                    <button type="button" class="button" id="vision10">
+                        VISION 10 </button>
+                </div>
+                <script>
+                    // Get the button element by its ID
+                    var vision_10 = document.getElementById("vision10");
+
+                    // Add a click event listener to the button
+                    vision_10.addEventListener("click", function () {
+                        // Code to be executed when the button is clicked
+                        alert("Button clicked!");
+
+                        window.location.href = "https://www.example.com/another-page.html";
+                    });
+                </script>
+                <div class="vis-text">
+                    <div>
+                        <h5 class="vis-text2">
+                            SUB-VISION ON MEN : V:
+                            6</h5>
+                    </div>
+                    <button type="button" class="button" id="vision11">
+                        VISION 11 </button>
+                </div>
+                <script>
+                    // Get the button element by its ID
+                    var vision_11 = document.getElementById("vision11");
+
+                    // Add a click event listener to the button
+                    vision_11.addEventListener("click", function () {
+                        // Code to be executed when the button is clicked
+                        alert("Button clicked!");
+
+                        window.location.href = "https://www.example.com/another-page.html";
+                    });
+                </script>
+            </div>
+            <div class="row1">
+                <div class="vis-text">
+                    <div>
+                        <h5 class="vis-text2">MAIN IN CHURCH
+                            VISION:V:1-3 </h5>
+                    </div>
+                    <button type="button" class="button" id="vision12">
+                        VISION 12 </button>
+                </div>
+                <script>
+                    // Get the button element by its ID
+                    var vision_12 = document.getElementById("vision12");
+
+                    // Add a click event listener to the button
+                    vision_12.addEventListener("click", function () {
+                        // Code to be executed when the button is clicked
+                        alert("Button clicked!");
+
+                        window.location.href = "https://www.example.com/another-page.html";
+                    });
+                </script>
+            </div>
+        </div>
+    </section>
+    <!-- Section 8: Videos -->
+    <section id="videos" class="videos">
+        <h2>Videos</h2>
+        <div class="video-container">
+            <!-- Add video elements here -->
+            <div id="vid-item1" class="vid-item">
+                <div class="vid" id="vid1">
+                    <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video"
+                        allowfullscreen=""></iframe>
+                </div>
+            </div>
+            <div id="vid-item2" class="vid-item">
+                <div class="vid" id="vid2">
+                    <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video"
+                        allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="button" id="videoBTN">
+            More Videos... </button>
+
+        <script>
+            // Get the button element by its ID
+            var videoB = document.getElementById("videoBTN");
+
+            // Add a click event listener to the button
+            videoB.addEventListener("click", function () {
+                // Code to be executed when the button is clicked
+                alert("Button clicked!");
+
+                window.location.href = "https://www.example.com/another-page.html";
+            });
+        </script>
+
+    </section>
+    <!-- Section 9: Branches -->
+    <section id="branches" class="branches">
+        <h2>Branches</h2>
+        <div class="branches-container">
+            <!-- Add video elements here -->
+            <div id="branch-cov">
+                <div id="branch-text1" class="link-opacity-10-hover" href="./GGC – Leslie ZONAL.html">
+                    <a style="color: rgba(178, 135, 13, 1);" href="./GGC – Leslie ZONAL.html">GGC – Leslie : Greater
+                        Grace Church
+                    </a>
+                </div>
+                <div id="branch-text1" class="link-opacity-10-hover" href="./Kinross Zonal.html">
+                    <a style="color: rgba(178, 135, 13, 1);" href="./Kinross Zonal.html">OGC – Dryden : One
+                        God Church
+                    </a>
+                </div>
+                <div id="branch-text1" class="link-opacity-10-hover" href="./Kinross Zonal.html">
+                    <a style="color: rgba(178, 135, 13, 1);" href="./Kinross Zonal.html">HCC – Kinross :
+                        Hillside City Church </a>
+                </div>
+                <div id="branch-text1" class="link-opacity-10-hover" href="./Endicott Zonal.html">
+                    <a style="color: rgba(178, 135, 13, 1);" href="./Endicott Zonal.html">HGC – Endicott :
+                        Hyper Grace Church </a>
+                </div>
+                <div id="branch-text1" class="link-opacity-10-hover" href="./savana zonal.html">
+                    <a style="color: rgba(178, 135, 13, 1);" href="./savana zonal.html">GRC – Savanna :
+                        Glorious Church </a>
+                </div>
+                <div id="branch-text1" class="link-opacity-10-hover" href="./Vukuzenzele zonal.html">
+                    <a style="color: rgba(178, 135, 13, 1);" href="./Vukuzenzele zonal.html">CJC – Vukuzenzele :
+                        Christ Jesus Church</a>
+                </div>
+                <div id="branch-text1" class="link-opacity-10-hover" href="./Argent Zonal.html">
+                    <a style="color: rgba(178, 135, 13, 1);" href="./Argent Zonal.html">GCC – Argent
+                        (Gracious Church)
+                    </a>
+                </div>
+                <div id="branch-text1" class="link-opacity-10-hover" href="./embalenhleZone.html">
+                    <a style="color: rgba(178, 135, 13, 1);" href="./embalenhleZone.html">CAC – Emba (Christ
+                        Ambassador Church)
+                    </a>
+                </div>
+                <div id="branch-text1" class="link-opacity-10-hover" href="./Waaikraal Zonal.html">
+                    <a style="color: rgba(178, 135, 13, 1);" href="./Waaikraal Zonal.html">ATEC – Waaikraal
+                        (Across-the-earth- Church)
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 10: Branches -->
+    <section id="updates" class="updates">
+        <h2>Updates</h2>
+        <div class="updates-container">
+            <!-- Add video elements here -->
+            <div id="update-text1">
+                <div id="update-text2">
+                    <h5>Daily devotional Word </h5>
+                </div>
+                <p id="qoute">“And he called his name Noah, saying, This [same] shall comfort us
+                    concerning
+                    our work and toil of our hands, because of the ground which the LORD hath cursed.”-<i>Bible verse
+                        Noah</i>
+            </div>
+            <div id="notes-label">
+                <h4>Notes</h4>
+            </div>
+            <div id="update-table-container">
+
+                <table id="update-table">
+                    <tbody>
+                        <tr>
+                            <td id="update-text7">
+                                <div>
+                                    <h3 id="update-text8">YOUTH REMAINDER</h3>
+                                </div>
+                                <div>
+                                    <h6 id="update-text8">Choir practice
+                                    </h6>
+                                </div>
+                                <div>
+                                    <h6 id="update-text8">Date :2023-09-11</h6>
+                                </div>
+                                <div>
+                                    <h6 id="update-text8">Time :13:30pm</h6>
+                                </div>
+                            </td>
+                            <td id="update-text9">
+                                <div>
+                                    <h3 id="update-text8">CHURCH REMAINDER</h3>
+                                </div>
+                                <div>
+                                    <h6 id="update-text8">Home Cell
+                                    </h6>
+                                </div>
+                                <div>
+                                    <h6 id="update-text8">Date :2023-09-11</h6>
+                                </div>
+                                <div>
+                                    <h6 id="update-text8">Time :13:30pm</h6>
+                                </div>
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- Section 11: Events -->
+    <section id="events" class="events">
+        <h2>Events</h2>
+        <div class="events-container">
+            <!-- Add video elements here -->
+            <div class="event-item event-item1">
+                <h3 id="event-text2">MONTHLY EVENTS</h3>
+                <h4 id="event-text3">Heritage Day Celebration</h4>
+                <h5 id="event-text4">DATE:24/09/2023</h5>
+                <h5 id="event-text6">TIME:10:00am</h5>
+            </div>
+            <div class="event-item ">
+                <h3 id="event-text8">MONTHLY BIRTHDAY</h3>
+                <h4 id="event-text9"> Belina Mahlangu</h4>
+                <h5 id="event-text10">DATE: 01/10/2023</h5>
+
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="links">
+            <div class="footlast">
+                <h4>
+                    <p>MEDIA LINKS</p>
+                </h4>
+                <h5><i class="fa fa-youtube" style="margin-bottom: 5%;">devon_Arkofgod </i></h5>
+                <h5><i class="fa fa-instagram" style="margin-bottom: 5%;">devon_Arkofgod</i></h5>
+                <h5><i class="fa fa-facebook" style="margin-bottom: 5%;"> devon_Arkofgod</i> </h5>
+                <h5><i class="fa fa-twitter" style="margin-bottom: 5%;"> devon_Arkofgod</i></h5>
+            </div>
+
+            <div class="footlast">
+                <h4>
+                    <p>PAGES</p>
+                </h4>
+                <h5>
+                    <div>About us</div>
+                </h5>
+                <h5>
+                    <div>Leadership</div>
+                </h5>
+                <h5>
+                    <div>Gallery</div>
+                </h5>
+                <h5>
+                    <div>Ministrity</div>
+                </h5>
+                <h5>
+                    <div>Branch</div>
+                </h5>
+            </div>
+            <div class="footlast">
+                <h4>
+                    <p>Location</p>
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video"
+                            allowfullscreen=""></iframe>
+                    </div>
+
+                </h4>
+
+            </div>
+        </div>
+        <div class="footlast legal">
+            <h5>Cpy right . Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+        </div>
+    </footer>
+</body>
+
+</html>
